@@ -1,8 +1,8 @@
 <script lang="ts">
   import { onMount } from "svelte"
   import { z } from "zod"
-  import { create, type RunInput } from "@fazgray/surfaces"
-  import { dom } from "@fazgray/surfaces/modules/dom"
+  import { create, type RunInput } from "@choice-xyz/surfaces"
+  import { dom } from "@choice-xyz/surfaces/modules/dom"
 
   const ui = create({ modules: [dom] })
   const domActions = [

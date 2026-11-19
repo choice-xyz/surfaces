@@ -2,14 +2,14 @@
 
 Build web UIs that LLMs can act on.
 
-[Demo](https://fazgray.github.io/surfaces/)
+[Demo](https://choice-xyz.github.io/surfaces/)
 
 ---
 
 <br/>
 
 ```ts
-import { create } from "@fazgray/surfaces"
+import { create } from "@choice-xyz/surfaces"
 import { z } from "zod"
 
 const ui = create()
@@ -67,7 +67,7 @@ await ui.run({ actionId, surface?, params? })
 ## DOM module
 
 ```ts
-import { dom } from "@fazgray/surfaces/modules/dom"
+import { dom } from "@choice-xyz/surfaces/modules/dom"
 
 const ui = create({ modules: [dom] })
 ```

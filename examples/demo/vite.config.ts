@@ -10,7 +10,7 @@ export default defineConfig({
   plugins: [svelte()],
   resolve: {
     alias: {
-      "@fazgray/surfaces": resolve(root, "../../src"),
+      "@choice-xyz/surfaces": resolve(root, "../../src"),
     },
   },
   build: {
